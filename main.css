@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+   @font-face {
+       font-family: "notCSans";
+       src: url('public/fonts/NotCourierSans.otf')
+       format('otf');
+   } 
+   @font-face {
+    font-family: "notCSansBold";
+    src: url('public/fonts/NotCourierSans-Bold.otf')
+    format('otf');
+} 
+}
