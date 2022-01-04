@@ -379,20 +379,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 [hidden] {
   display: none;
 }
-   @font-face {
-       font-family: "notCSans";
-       src: url("public/fonts/NotCourierSans.otf")
-       format('otf');
-   } 
-   @font-face {
+  @font-face {
+    font-family: "notCSans";
+    src: url("./public/fonts/NotCourierSans.otf") format("otf");
+  }
+  @font-face {
     font-family: "notCSansBold";
-    src: url("public/fonts/NotCourierSans-Bold.otf")
-    format('otf');
-} 
-
-#mainImage{
-    height: 50vh;
-}
+    src: url("./public/fonts/NotCourierSans-Bold.otf") format("otf");
+  }
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -673,7 +667,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@import url('/public/fonts/*otf');
+@import url("/public/fonts/*otf");
 
 .hover\:opacity-100:hover {
   opacity: 1;
