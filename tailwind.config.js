@@ -8,8 +8,8 @@ module.exports = {
         'bg-main': "url('/image/backgrounds/grass1.jpg')",
       },
       fontFamily:{
-        notCSans:"'NotCourierSans', sans-serif",
-        notCSansBold:"'NotCourierSansBold', sans-serif"
+        notCSans: ["NotCourierSans", "sans-serif"],
+        notCSansBold:["NotCourierSansBold", "sans-serif"],
       }
       
     },
