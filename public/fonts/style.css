@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "notCSans";
+      src: url("./NotCourierSans.otf");
+    }
+    @font-face {
+      font-family: "notCSansBold";
+      src: url("./NotCourierSans-Bold.otf");
+    }
+  }
