@@ -1,17 +1,14 @@
-@import url("/public/fonts/NotCourierSans.otf");
-@import url("/public/fonts/NotCourierSans-Bold.otf");
-
-@layer base {
-  @font-face {
-    font-family: "notCSans";
-    src: url("./public/fonts/NotCourierSans.otf");
-  }
-  @font-face {
-    font-family: "notCSansBold";
-    src: url("./public/fonts/NotCourierSans-Bold.otf");
-  }
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "notCSans";
+      src: url("./public/fonts/NotCourierSans.otf");
+    }
+    @font-face {
+      font-family: "notCSansBold";
+      src: url("./public/fonts/NotCourierSans-Bold.otf");
+    }
+  }
