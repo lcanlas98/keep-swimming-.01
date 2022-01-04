@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-      font-family: "notCSans";
-      src: url("./public/fonts/NotCourierSans.otf");
-    }
+
     @font-face {
       font-family: "notCSansBold";
       src: url("./public/fonts/NotCourierSans-Bold.otf");
+    }
+
+    @font-face {
+        font-family: "notCSans";
+        src: url("./public/fonts/NotCourierSans.woff");
     }
   }

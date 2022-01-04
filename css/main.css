@@ -379,13 +379,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 [hidden] {
   display: none;
 }
-    @font-face {
-      font-family: "notCSans";
-      src: url("./public/fonts/NotCourierSans.otf");
-    }
+
     @font-face {
       font-family: "notCSansBold";
       src: url("./public/fonts/NotCourierSans-Bold.otf");
+    }
+
+    @font-face {
+        font-family: "notCSans";
+        src: url("./public/fonts/NotCourierSans.woff");
     }
 *, ::before, ::after {
   --tw-translate-x: 0;
