@@ -381,12 +381,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
    @font-face {
        font-family: "notCSans";
-       src: url('public/fonts/NotCourierSans.otf')
+       src: url("public/fonts/NotCourierSans.otf")
        format('otf');
    } 
    @font-face {
     font-family: "notCSansBold";
-    src: url('public/fonts/NotCourierSans-Bold.otf')
+    src: url("public/fonts/NotCourierSans-Bold.otf")
     format('otf');
 } 
 
