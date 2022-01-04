@@ -13,4 +13,8 @@
     src: url('public/fonts/NotCourierSans-Bold.otf')
     format('otf');
 } 
+
+#mainImage{
+    height: 50vh;
+}
 }

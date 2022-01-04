@@ -1,5 +1,6 @@
 module.exports = {
   content: ["*html",
+            "./Practice/*html",
             "./nav/resume/*html"],
   theme: {
     extend: {
