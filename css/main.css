@@ -387,7 +387,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
     @font-face {
         font-family: "notCSans";
-        src: url("./public/fonts/NotCourierSans.woff");
+        src: url("./public/fonts/notcouriersans.woff");
     }
 *, ::before, ::after {
   --tw-translate-x: 0;
