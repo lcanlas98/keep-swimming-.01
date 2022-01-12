@@ -9,8 +9,10 @@ module.exports = {
       },
 
       fontFamily:{
-        notCSans: ["NotCourierSans", "sans-serif"],
-        notCSansBold:["NotCourierSansBold", "sans-serif"]
+        notCSans: ["NotCourierSans", sans-serif],
+        notCSansBold:["NotCourierSansBold", sans-serif],
+        notcouriersansregular:["notcouriersans-webfont", sans-serif],
+        incon: ['Inconsolata', monospace]
       },
       
     }

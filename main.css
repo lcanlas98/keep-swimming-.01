@@ -9,7 +9,7 @@
   }
 
   @font-face {
-    font-family: "notCSans";
+    font-family: "notcouriersansregular";
     src:url("./public/fonts/notcouriersans-webfont.woff") format("woff");
     src:url("./public/fonts/notcouriersans-webfont.woff2") format("woff2");
   }

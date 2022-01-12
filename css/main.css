@@ -391,7 +391,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @font-face {
-  font-family: "notCSans";
+  font-family: "notcouriersansregular";
   src: url("./public/fonts/notcouriersans.woff") format("woff");
   src: url("./public/fonts/notcouriersans.woff2") format("woff2");
 }
